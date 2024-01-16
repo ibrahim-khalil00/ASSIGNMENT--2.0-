@@ -72,7 +72,7 @@ main {
     color: #131318;
 }
 .banner-container {
-    background: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
