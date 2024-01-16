@@ -629,15 +629,16 @@ footer {
     line-height: 162.5%;
     margin: 15px auto 30px;
 }
-.s-icon{
+.social-icon{
+    max-width: 610px;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
 }
-.s-icon a{
-    color: #131318;
-    font-size: 24px;
+.icon{
+    cursor: pointer;
 }
 
 .hr {
