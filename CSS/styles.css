@@ -599,3 +599,53 @@ input {
     font-size: 3.1rem;
     font-weight: 800;
 }
+/* footer related style */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+    margin-top: 100px;
+}
+
+.footer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    font-size: 1.6rem;
+    line-height: 162.5%;
+    margin: 15px auto 30px;
+}
+.s-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.s-icon a{
+    color: #131318;
+    font-size: 24px;
+}
+
+.hr {
+    margin: 50px 0;
+}
+
+.end-title {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
