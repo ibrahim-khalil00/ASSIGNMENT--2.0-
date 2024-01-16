@@ -1,0 +1,221 @@
+@media screen and (max-width:600px) {
+    header,
+    main {
+        width: 90%;
+    }
+
+    .menubar-container {
+        padding-top: 20px;
+        padding-bottom: 32px;
+    }
+
+    .menu-item1 a img {
+        max-width: 19%;
+    }
+
+    .icon-title {
+        font-size: 2.1rem;
+        margin-left: 6px;
+    }
+
+    .menu-item3 {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .menu-item2 {
+        display: none;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .banner-container {
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+
+    .banner-description {
+        padding: 15px;
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+
+    .form-container {
+        width: 78%;
+    }
+
+    input {
+        width: 88%;
+    }
+
+    select,
+    #btn-banner {
+        width: 96%;
+    }
+
+    .tours-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .tours-img {
+        width: 100%;
+    }
+
+    .tours-img>img {
+        max-width: 100%;
+    }
+
+    .tours-title {
+        font-size: 2rem;
+    }
+
+    .tours-description {
+        font-size: 1.4rem;
+    }
+
+    .destination-items {
+        grid-template-columns: 1fr;
+    }
+
+    .none {
+        grid-row: 1 span;
+        grid-column: 1 span;
+    }
+
+    .destination-items img {
+        height: 176px;
+    }
+
+    .destination-intru {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .destination-title {
+        font-size: 2rem;
+    }
+
+    .destination-description {
+        font-size: 1.4rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .why-items {
+        flex-direction: column;
+    }
+
+    .why-item-container-1 {
+        max-width: 100%;
+    }
+
+    .why-item-container-2 {
+        max-width: 100%;
+    }
+
+    .why-item-container-3 {
+        max-width: 100%;
+    }
+
+    .why-intru {
+        max-width: 90%;
+        margin: 40px auto 40px;
+    }
+
+    .why-title {
+        font-size: 3rem;
+    }
+
+    .why-description {
+        font-size: 1.4rem;
+    }
+
+    .deals-items-box,
+    .deals-items-boxs {
+        max-width: 100%;
+        margin-left: auto;
+        padding: 10px;
+    }
+    .deals-intru{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+.deals-title{
+    font-size: 3rem;
+}
+
+
+    .deals-box,
+    .deals-boxs {
+        padding: 16px;
+        padding-top: 240px;
+    }
+    .deals-logo{
+        
+        flex-wrap: wrap-reverse;
+    }
+    .large{
+        display:flex;
+        justify-content: center;
+    }
+    .perfect-container{
+        flex-direction: column;
+        margin: 40px 0;
+        gap: 30px;
+    }
+    .perfect-intru{
+        width: 100%;
+    }
+    .perfect-video{
+        width: 100%;
+    }
+    .perfect-title {
+        font-size: 2rem;
+    }
+    
+    .perfect-detailes {
+        font-size: 1.4rem;
+    }
+    
+    .perfect-list {
+        font-size: 1.4rem;
+    }
+    .newsletter-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter-form {
+        width: 90%;
+        padding: 30px 12px;
+    }
+    
+    .newsletter-img {
+        width: 100%;
+    }
+    .offer-title {
+        font-size: 1.5rem;
+    }
+    .offer{
+        padding:25px 4px 20px ;
+        bottom: 17%;
+        width: 58%;
+    }
+    
+    .offer-price {
+        font-size: 2.1rem;
+    }
+}
